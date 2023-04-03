@@ -13,6 +13,6 @@ class Product
     private:
     std::string name;
     double price;
-}
+};
 
 #endif // Product_H
