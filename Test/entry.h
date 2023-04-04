@@ -1,14 +1,17 @@
 #ifndef ENTRY_H
 #define ENTRY_H
 
-#include <string>
+class Entry {
+private:
+    double change;
 
-Class Entry
-{
-    public:
-}
-
+public:
+    Entry(double change);
+    double getChange();
+    bool canTakePlace(double balance);
+};
 
 #endif
+
 
  
